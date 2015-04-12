@@ -1,0 +1,192 @@
+
+/*classes*/
+/*Top Nav*/
+.kickstarter {
+	margin:10px 0 5px;
+}
+
+.row {
+	margin:0;
+}
+
+.row-border {
+	border-bottom: 1px solid #979797;
+
+}
+
+/* border for top nav */
+.div-border {
+border-right: 1px solid #979797;
+padding-top:4px;
+}
+
+.nav-small {
+	color:gray;
+	font-size: 12px;
+}
+
+/* BODY classes, for descriptions and areas BELOW video */
+
+.bump-right {
+	margin-left:30px;
+}
+/*DRY */
+
+.searchicon::before{
+	content:url('icons/SearchIcon.png');
+}
+
+
+.vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.vid iframe,
+.vid object,
+.vid embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom:20px;
+}
+
+.large-desc {
+	font-size:1.25em;
+}
+
+.right-side {
+	text-align: right;
+}
+
+/*image caption*/
+.caption {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  margin:20px 0;
+}
+
+/*small p*/
+.teenytinytoby {
+  font-size: .75em;
+  font-style: lighter;
+}
+/*pledge*/
+.pledge {
+  font-weight: 600;
+  margin:20px 0;
+}
+
+.backer {
+  font-size: .85em;
+  font-weight:600;
+  margin:0;
+}
+
+.label-default {
+  margin:0 20px;
+  font-size: 1em;
+  padding:5px;
+  background-color:lightgray;
+}
+
+.panel {
+  padding:20px;
+}
+
+/*top border for a div */
+.border-top {
+  border-top: 1px solid #979797;
+}
+
+.styled-list {
+  padding:0;
+}
+.styled-list li {
+  list-style-type: none;
+  padding:4px 0;
+}
+
+/*------------footer---------*/
+/*footer style*/
+.mega-footer {
+  background-color: #0f2105;
+  border-top:dashed 1px #2bde73;
+  color: #828587;
+  font-size:14px;
+  padding:0px 20px;
+}
+
+.footer--header {
+  color:white;
+  font-weight:normal;
+  font-size:1.5rem;
+  margin-top:20px;
+  margin-bottom:10px;
+  line-height:.9em;
+}
+/*button, dry?*/
+.btn2 {
+	height: 40px;
+	border-style: solid;
+  	border-width: 2px;
+  	padding: 10px 20px;
+  	border-radius:4px;
+  	font-size:14px;
+    margin:20px 0;
+
+}
+.btn {
+  	border-style: solid;
+  	border-width: 2px;
+  	font-weight: bold;
+  	padding: 10px 20px;
+  	margin-left:45px;
+}
+
+
+.btn--small {
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 5px 5px 4px;
+}
+
+.btn--border-gray {
+  border-color: #828587;
+  color: #828587;
+}
+/*Child selectors*/
+
+/*search bar, top nav*/
+input[type|="search"] {
+	margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
